@@ -23,23 +23,3 @@ export default function Home() {
   );
 }
 
-// Hero Section
-// Modern décor for modern living
-
-// Featured Categories
-// Furniture, Lighting, Rugs, Wall Art
-
-// Why Choose NextDecor
-// Quality materials, modern design, fair pricing
-
-// Best Selling Products
-// Showcase 4–6 items from your dataset
-
-// Craftsmanship & Materials
-// Highlight wood, marble, bamboo, velvet, wool
-
-// Customer Experience
-// Comfort, durability, elegant living
-
-// Call To Action
-// Explore Our Collection → /items

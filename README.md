@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+````markdown
+# NextDecor
 
-## Getting Started
+**Live Demo:** [https://nextdecor.vercel.app/](https://nextdecor.vercel.app/)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Project Description
+NextDecor is a modern home décor marketplace offering thoughtfully designed furniture, lighting, rugs, and wall art to elevate your living space. The platform provides a seamless browsing experience for discovering and exploring unique home décor products.
+
+---
+
+## Technologies Used
+- **Next.js (latest version)**
+- **React.js**
+- **Tailwind CSS** for styling
+- **Vercel** for deployment
+- **React Icons** for icons
+
+---
+
+## Setup & Installation
+
+This project uses **Next.js (latest version)** and is deployed on **Vercel**. To run it locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/nextdecor.git
+````
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd nextdecor
+   ```
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## Route Summary
+
+* **Home (`/`)** – Main landing page showcasing featured content and categories.
+* **All Products (`/products`)** – Displays all available products (placeholder page if implemented later).
+* **Login (`/login`)** – Simple login functionality for users.
+
+---
+
+## Implemented Features
+
+### 1. Home Page
+
+The home page is composed of multiple sections:
+
+* **Hero** – Eye-catching introductory banner.
+* **Featured Categories** – Highlights main product categories.
+* **Why Choose** – Explains the advantages of shopping at NextDecor.
+* **Best Selling** – Displays popular products.
+* **Materials Section** – Highlights product materials.
+* **Testimonials** – Customer feedback and reviews.
+* **Call To Action** – Encourages user interaction, such as signing up or exploring products.
+
+### 2. View Details Page
+
+* Individual product details view, allowing users to explore more information about a product.
+
+### 3. Login
+
+* Simple login feature to authenticate users.
+* Placeholder for future authentication expansions (like registration or social login).
+
+---
+
+
+## Notes
+
+* Fully responsive design using **Next.js**.
+* Deployed on **Vercel** for instant hosting and live preview.
+* Code is structured with reusable React components for easier maintainability.
+
+---
+
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
